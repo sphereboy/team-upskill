@@ -1,6 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Media Team Learning Hub
 
-## Getting Started
+A Next.js-based internal platform designed to streamline the onboarding and continuous learning process for photo and video editing teams. This application serves as a centralized knowledge base and training management system that can be customized for different organizations' tools, workflows, and processes.
+
+## 🎯 Project Vision
+
+The platform aims to reduce onboarding time, improve team skill development, and create a sustainable knowledge-sharing environment within media production teams.
+
+## 🚀 Core Features
+
+### Launch Features
+
+1. **Customizable Company Foundation**
+
+   - Tool and software catalog management
+   - Custom workflow documentation
+   - Basic brand guidelines integration
+
+2. **Knowledge Management**
+
+   - Tips & tricks repository
+   - Searchable documentation
+   - Basic version-specific tool guides
+
+3. **Team Collaboration**
+   - Knowledge sharing capabilities
+   - Resource tagging and organization
+   - Quick access to relevant documentation
+
+### Planned Future Features
+
+1. **Smart Onboarding System**
+
+   - Interactive tool/software introduction paths
+   - Role-based learning tracks
+   - Progress tracking
+   - Customizable onboarding checklists
+
+2. **Training Coordination**
+   - Schedule management for training sessions
+   - Calendar integration
+   - Resource booking
+   - Training material distribution
+
+## 🛠 Technical Stack
+
+- **Frontend:** Next.js 14 with App Router
+- **UI Components:** shadcn/ui
+- **Styling:** Tailwind CSS
+- **Authentication:** TBD
+- **Database:** TBD
+
+### Key Technical Requirements
+
+- Responsive design for various devices
+- Role-based access control
+- Search functionality across all content types
+- Performance optimization for media content
+- Version control for documentation
+
+## 👥 Target Users
+
+- New team members going through onboarding
+- Existing team members seeking resources
+- Team leads managing training
+- Administrators managing company-specific content
+- Content creators sharing knowledge
+
+## 🚦 Getting Started
 
 First, run the development server:
 
@@ -18,19 +84,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Technical Documentation
 
-## Learn More
+This project uses:
 
-To learn more about Next.js, take a look at the following resources:
+- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) with [Geist](https://vercel.com/font)
+- [shadcn/ui](https://ui.shadcn.com/) for UI components
+- [Tailwind CSS](https://tailwindcss.com/) for styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For more information about Next.js:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
 
-## Deploy on Vercel
+## 🚀 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is configured for deployment on [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For more deployment options, check the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
