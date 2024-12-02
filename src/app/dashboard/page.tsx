@@ -10,14 +10,6 @@ export const metadata: Metadata = {
 export default function DashboardPage() {
   return (
     <div>
-      <div className="p-4">
-        <Link
-          href="/"
-          className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-        >
-          ← Back to Home
-        </Link>
-      </div>
       <Dashboard />
     </div>
   );
